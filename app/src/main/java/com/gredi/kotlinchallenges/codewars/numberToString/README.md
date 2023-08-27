@@ -17,5 +17,5 @@ Examples (input --> output):
 
 ## Solution
 
-[implementation](app/src/main/java/com/gredi/kotlinchallenges/codewars/numberToString/NumberToString.kt)
-[implementation test](app/src/test/java/com/gredi/kotlinchallenges/codewars/numberToString/NumberToStringTest.kt)
+- [implementation](app/src/main/java/com/gredi/kotlinchallenges/codewars/numberToString/NumberToString.kt)
+- [implementation test](app/src/test/java/com/gredi/kotlinchallenges/codewars/numberToString/NumberToStringTest.kt)
