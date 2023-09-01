@@ -21,3 +21,7 @@ The function perimeter has for parameter n where n + 1 is the number of squares 
 perimeter(5)  should return 80
 perimeter(7)  should return 216
 ```
+
+## Solution
+
+- [implementation](SumFct.kt)
