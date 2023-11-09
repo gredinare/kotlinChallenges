@@ -1,4 +1,4 @@
-package com.gredi.kotlinchallenges.others
+package com.gredi.kotlinchallenges.others.missingnumber
 
 class MissingNumber {
 
