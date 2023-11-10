@@ -10,6 +10,7 @@ class Bagels {
         printSlicer()
 
         val number = getSecretNum()
+        println(number)
 
         printStart()
         printSlicer()
@@ -22,10 +23,17 @@ class Bagels {
                 continue
             }
 
+            if(test == number) {
+                println("Você acertou!")
+                break
+            } else {
+                val clues = checkResponse(test, number)
+                printClues(clues)
+            }
+
             println("passou aqui")
         }
     }
-
 
     // Print functions
     private fun printIntro() {
@@ -69,6 +77,12 @@ class Bagels {
         println()
     }
 
+    private fun printClues(clues: Map<Clue, Int>) {
+        for (clue in clues) {
+            println("${clue.key.value}: ${clue.value}")
+        }
+    }
+
 
     // Game rule functions
     private fun getSecretNum(): String {
@@ -83,10 +97,26 @@ class Bagels {
         return readln().replace(" ", "")
     }
 
-    private fun checkResponse(userInput: String, secret: String): List<Clues> {
+    private fun checkResponse(guess: String, secret: String): Map<Clue, Int> {
+        var pico = 0
+        var fermi = 0
 
+        for (i in guess.indices) {
+            if(guess[i] == secret[i]) {
+                fermi++
+            } else if(secret.contains(guess[i])) {
+                pico++
+            }
+        }
 
-        return listOf()
+        if(pico == 0 && fermi == 0) {
+            return mapOf(Clue.BAGELS to 1)
+        }
+
+        return mapOf(
+            Clue.PICO to pico,
+            Clue.FERMI to fermi,
+        )
     }
 
 }
