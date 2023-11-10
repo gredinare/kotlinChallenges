@@ -2,22 +2,23 @@
 
 ## Descrição
 
-TODO: traduzir
+Bagels é um jogo de lógica dedutiva, onde você deve adivinhar um número secreto de três dígitos com base em dicas.
+O jogo oferece uma das seguintes dicas em resposta ao seu palpite:
+- "Pico" quando seu palpite tem um dígito correto no lugar errado
+- "Fermi" quando seu palpite tem um dígito correto no lugar correto
+- "Bagels" se seu palpite não tiver dígitos corretos.
 
-In Bagels, a deductive logic game, you must guess a secret three-digit number based on clues.
-The game offers one of the following hints in response to your guess: 
-- “Pico” when your guess has a correct digit in the wrong place
-- “Fermi” when your guess has a correct digit in the correct place
-- “Bagels” if your guess has no correct digits.
-
-You have 10 tries to guess the secret number.
+Você tem 10 tentativas para adivinhar o número secreto.
 
 ### Exemplo:
 
 ### Condições:
 
-
 ## Solução
+
+## Próximos passos:
+
+- Separar as funcionalidades
 
 ## Créditos
 
