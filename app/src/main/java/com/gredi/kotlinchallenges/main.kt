@@ -1,8 +1,8 @@
 package com.gredi.kotlinchallenges
 
-import com.gredi.kotlinchallenges.others.missingnumber.MissingNumber
+import com.gredi.kotlinchallenges.smallProjects.bagels.Bagels
 
 fun main() {
-    val test = arrayOf(0, 1, 2, 3, 5)
-    val missingNumber = MissingNumber().solution2(test)
+    val test = Bagels()
+    test.playGame()
 }
