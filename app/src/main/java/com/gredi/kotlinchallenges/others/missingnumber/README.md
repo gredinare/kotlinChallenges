@@ -1,6 +1,6 @@
 # Missing Number
 
-## Challenge description
+## Descrição
 
 Em uma lista ordenada de inteiros que contém todos os números de 1 a N, um número aleatório é removido.
 Escreva uma função que receba a lista como entrada e retorne qual número foi removido.
@@ -15,7 +15,7 @@ Escreva uma função que receba a lista como entrada e retorne qual número foi 
 - sequencia numerica faltando 1 numero na ordem natural dos numeros
 - valares > 0
 
-## Solution
+## Solução
 
 - [implementation](MissingNumber.kt)
 

@@ -1,7 +1,6 @@
 # Convert a Number to a String
 
-
-## Challenge description
+## Descrição
 
 We need a function that can transform a number (integer) into a string.
 
@@ -15,6 +14,6 @@ Examples (input --> output):
 -100 --> "-100"
 ```
 
-## Solution
+## Solução
 
 - [implementation](NumberToString.kt)
