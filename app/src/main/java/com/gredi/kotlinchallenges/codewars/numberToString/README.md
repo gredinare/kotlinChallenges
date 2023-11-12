@@ -2,11 +2,9 @@
 
 ## Descrição
 
-We need a function that can transform a number (integer) into a string.
+Faça uma funçào que possa transformar um número inteiro em uma string.
 
-What ways of achieving this do you know?
-
-Examples (input --> output):
+Exemplos (entrada --> saída):
 
 ```
 123  --> "123"

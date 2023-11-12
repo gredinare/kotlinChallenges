@@ -2,9 +2,10 @@
 
 ## Descrição
 
-Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
+Timmy e Sarah acham que estão apaixonados, mas onde eles moram, eles só saberão depois de escolherem uma flor cada.
+Se uma das flores tiver um número par de pétalas e a outra tiver um número ímpar de pétalas, significa que eles estão apaixonados.
 
-Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+Escreva uma função que pegue o número de pétalas de cada flor e retorne verdadeiro se eles estiverem apaixonados e falso se não estiverem.
 
 ## Solução
 
