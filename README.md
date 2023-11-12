@@ -14,3 +14,7 @@ Todos os desafios contém uma descrição do problema e uma solução, alguns ta
 - [Perimeter of squares in a rectangle](app/src/main/java/com/gredi/kotlinchallenges/codewars/perimeterOfSquaresInARectangle/README.md)
 
 ### Others
+
+- [Bagels](app/src/main/java/com/gredi/kotlinchallenges/smallProjects/bagels/README.md)
+- [BaseConverter](app/src/main/java/com/gredi/kotlinchallenges/smallProjects/baseConverter/README.md)
+
