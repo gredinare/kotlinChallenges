@@ -13,8 +13,11 @@ Todos os desafios contém uma descrição do problema e uma solução, alguns ta
 - [Opposites Attract](app/src/main/java/com/gredi/kotlinchallenges/codewars/oppositesAttract/README.md)
 - [Perimeter of squares in a rectangle](app/src/main/java/com/gredi/kotlinchallenges/codewars/perimeterOfSquaresInARectangle/README.md)
 
-### Others
+### Small Projects
 
 - [Bagels](app/src/main/java/com/gredi/kotlinchallenges/smallProjects/bagels/README.md)
 - [BaseConverter](app/src/main/java/com/gredi/kotlinchallenges/smallProjects/baseConverter/README.md)
 
+### Others
+
+- [MissingNumber](app/src/main/java/com/gredi/kotlinchallenges/others/missingnumber/README.md)
