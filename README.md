@@ -4,7 +4,8 @@
 
 Uso ese repositório para treinar diversos tipos de algoritmos / desafios que vejo por ai.
 
-Todos os desafios contém uma descrição do problema e uma solução, alguns também tem os créditos de onde eu encontrei o desafio.
+Todos os desafios contém uma descrição do problema, exemplos de uso e a solução.
+Os desafios contam com testes unitários para validar se sua função está correta.
 
 ## Challenge list
 
