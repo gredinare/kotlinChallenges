@@ -15,5 +15,5 @@ enum class CardValue(val value: Int) {
     QUEEN(12),
     KING(13),
 
-    JOKER(-1)
+    JOKER(0)
 }
